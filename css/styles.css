@@ -1,0 +1,287 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    background-color: hsl(270, 20%, 96%);
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: hsl(271, 36%, 24%);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    font-size: 13px;
+    opacity: 80%;
+}
+
+h3 {
+    color: hsl(276, 100%, 81%);
+    font-weight: 400;
+    margin: 0;
+    font-size: 11px;
+    opacity: 80%;
+}
+
+p {
+    color: hsl(270, 7%, 64%);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.shape {
+    height: 90vh;
+    width: 50vw;
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    position: absolute;
+    z-index: -1;
+    border-radius: 0% 0% 100% 0% / 0% 0% 100% 100%;
+}
+
+.iphone {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 12.5px solid white;
+    margin: 50px auto;
+    height: 550px;
+    width: 262.5px;
+    /* animation: fadeIn 5s; */
+}
+
+.white-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow p {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 80%;
+    rotate: 90deg;
+}
+
+.header-left {
+    display: flex;
+    margin-top: 20px;
+}
+
+.header-mid {
+    display: flex;
+    align-items: center;
+}
+
+.dots {
+    rotate: 90deg;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 0 0 30px;
+    opacity: 80%;
+}
+
+.white-box {
+    height: 24px;
+    width: 150px;
+    border-radius: 20px;
+    margin: 0 auto 0;
+    background-color: white;
+    margin: 0 calc((275px - 150px) / 2);
+}
+
+.chat-header {
+    margin: 4px auto 0;
+    width: 262.5px;
+    height: 75px;
+    border-radius: 20px 20px 5px 5px;
+    background: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50px;
+    border: 1px solid white;
+    height: 25px;
+    width: 25px;
+    margin: 0 10px;
+}
+
+.messenger-body {
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 5px 5px 15px 15px;
+
+}
+
+.messenger-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 5px 5 px 5px 0;
+}
+
+.dog-imgs {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 10px 5px 0;
+}
+
+.dog-imgs img {
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+
+.sent {
+    background-color: white;
+    width: 175px;
+    border-radius: 10px 10px 2.5px 10px;
+    margin: 5px 10px;
+}
+
+.sent p {
+    font-size: 11px;
+    color: hsl(271, 15%, 43%);
+    padding: 7.5px;
+    margin: 0;
+}
+
+.received {
+    background-color: hsla(276, 100%, 81%, 0.21);
+    width: 175px;
+    border-radius: 10px 10px 10px 2.5px;
+    margin: 10px 0 10px 10px;
+}
+
+.received p {
+    color: hsl(276, 55%, 52%);
+    font-size: 11px;
+    padding: 7.5px;
+    margin: 0;
+}
+
+.offer-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background-color: transparent;
+    margin: 10px 5px 5px 10px;
+
+}
+
+.offer p {
+    color: white;
+    opacity: 80%;
+    font-size: 11px;
+    height: 15px;
+    margin: 10px 10px 5px 5px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    margin: 10px 0 5px 10px;
+    height: 35px;
+    width: 200px;
+    border-radius: 8px 8px 8px 4px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin: 10px 15px 10px 10px;
+}
+
+.text-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 10px;
+    background-color: white;
+    border-radius: 15px;
+    height: 40px;
+    width: 240px;
+}
+
+.text-box p {
+    font-size: 13px;
+    margin: 13px 15px;
+    color: hsl(206, 6%, 79%)
+}
+
+.submit {
+    background-color: hsl(271, 36%, 24%);
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+.submit p {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    rotate: -90deg;
+    margin: 4px auto;
+}
+
+.ad {
+    text-align: center;
+    margin: 25px 30px 50px;
+}
+
+
+footer {
+    margin: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media (min-width: 1100px) {
+
+    .content {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .shape {
+        width: 30vw;
+        border-radius: 0% 0% 50% 50% / 0% 0% 25% 25%;
+    }
+
+    .ad {
+        margin: 250px 300px 100px 50px;
+        text-align: left;
+    }
+
+    .iphone {
+        margin: 100px 50px 100px 300px;
+    }
+}
